@@ -17,13 +17,13 @@ import Rajasree from "../../assets/staffs/Rajasree-mam.jpg";
 import Thilagavathi from "../../assets/staffs/Thilaga-mam.jpg";
 // Nav imports
 import logo from "../../assets/logo.png";
-// import { GiTimeSynchronization } from "react-icons/gi";
+ import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
 import { SiEventstore, SiRiotgames } from "react-icons/si";
-// import { VscOrganization } from "react-icons/vsc";
+//import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 
 import { Helmet } from "react-helmet";

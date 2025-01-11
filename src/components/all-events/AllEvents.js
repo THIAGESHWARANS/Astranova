@@ -3,7 +3,7 @@ import EliteEvents from "./EliteEvents";
 import NonTechnicalEvents from "./NonTechnicalEvents";
 import TechnicalEvents from "./TechnicalEvents";
 import logo from "../../assets/logo.png";
-// import { GiTimeSynchronization } from "react-icons/gi";
+import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { TbUnlink } from "react-icons/tb";

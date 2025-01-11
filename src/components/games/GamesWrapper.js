@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/logo.png";
-// import { GiTimeSynchronization } from "react-icons/gi";
+import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { VscOrganization } from "react-icons/vsc";

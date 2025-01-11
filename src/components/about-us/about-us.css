@@ -34,7 +34,7 @@ body {
 }
 
 .about-button {
-  background-color: purple;
+  background-color: #35C6F1;
   padding: 10px;
   border-radius: 10px;
   font-size: 17px;
@@ -45,6 +45,6 @@ body {
   transform: scale(1.2);
   background-color: transparent;
   border: 2px solid #111111;
-  color: purple;
+  color: #0A345D;
   cursor: pointer;
 }
