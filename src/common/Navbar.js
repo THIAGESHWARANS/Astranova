@@ -47,12 +47,12 @@ const Navbar = () => {
           {" "}
           {open ? (
             <motion.div whileTap={{ scale: 0.6 }} className="flex items-center">
-              <span className="text-4xl text-purple-500">C</span>
+              <span className="text-4xl text-teal-500">C</span>
               <span className="mt-1">lose</span>
             </motion.div>
           ) : (
             <motion.div whileTap={{ scale: 0.6 }}>
-              <span className="text-4xl text-purple-500">M</span>
+              <span className="text-4xl text-teal-500">M</span>
               <span>enu</span>
             </motion.div>
           )}
@@ -71,64 +71,64 @@ const Navbar = () => {
             <ul>
               <Link
                 to={"/"}
-                className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-teal-300 "
               >
                 <HiOutlineHome size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   H<span className="text-black text-xl">ome</span>{" "}
                 </div>
               </Link>
               <Link
                 to={"/about-us"}
-                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <TbUnlink size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   A<span className="text-black text-xl">bout Us</span>{" "}
                 </div>
               </Link>
               <Link
                 to={"/events"}
-                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <SiEventstore size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   E<span className="text-black text-xl">vents</span>{" "}
                 </div>
               </Link>
               <Link
                 to={"/games/online"}
-                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <SiRiotgames size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   G<span className="text-black text-xl">ames</span>{" "}
                 </div>
               </Link>
               <Link
                 to={"#"}
-                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <GiTimeSynchronization size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   C<span className="text-black text-xl">hronoline</span>{" "}
                 </div>
               </Link>
               {/* <Link
                 to={"/team"}
-                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <VscOrganization size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   O<span className="text-black text-xl">ur Team</span>{" "}
                 </div>
               </Link> */}
               <Link
                 to={"/contact-us"}
-                className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-teal-300 "
               >
                 <FaTeamspeak size={20} />{" "}
-                <div className="text-purple-500 text-2xl ">
+                <div className="text-teal-500 text-2xl ">
                   C<span className="text-black text-xl">ontact Us</span>{" "}
                 </div>
               </Link>

@@ -8,10 +8,10 @@ const ExploreButton = ({ path }) => {
         <span className="text-4xl">E</span>
         <span className="mt-2">xplore </span>
         <span className="ml-4 mt-1">
-          <GiBrightExplosion size={25} color="purple" />
+          <GiBrightExplosion size={25} color="teal" />
         </span>
       </a>
-      <div className="h-1  w-[30%] sm:w-[16%] lg:w-[15%]  bg-purple-500 rounded-full"></div>
+      <div className="h-1  w-[30%] sm:w-[16%] lg:w-[15%]  bg-teal-500 rounded-full"></div>
     </div>
   );
 };
