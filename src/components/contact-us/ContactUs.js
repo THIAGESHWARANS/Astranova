@@ -87,7 +87,7 @@ export default function ContactUs() {
                 <svg
                   x="100%"
                   y={-1}
-                  className="overflow-visible fill-purple-800/20"
+                  className="overflow-visible fill-teal-800/20"
                 >
                   <path d="M-470.5 0h201v201h-201Z" strokeWidth={0} />
                 </svg>
@@ -307,7 +307,7 @@ export default function ContactUs() {
                     id="first-name"
                     required
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -323,7 +323,7 @@ export default function ContactUs() {
                     type="text"
                     name="l_n"
                     id="last-name"
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -341,7 +341,7 @@ export default function ContactUs() {
                     name="name"
                     id="name"
                     autoComplete=""
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div> */}
@@ -359,7 +359,7 @@ export default function ContactUs() {
                     name="college_name"
                     id="college"
                     autoComplete=""
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -377,7 +377,7 @@ export default function ContactUs() {
                     required
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -395,7 +395,7 @@ export default function ContactUs() {
                     id="phone-number"
                     autoComplete="tel"
                     required
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -412,7 +412,7 @@ export default function ContactUs() {
                     id="message"
                     required
                     rows={4}
-                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-purple-500 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-teal-500 sm:text-sm sm:leading-6"
                     defaultValue={""}
                   />
                 </div>
@@ -431,13 +431,13 @@ export default function ContactUs() {
             >
               <Link
                 to={"/"}
-                className="rounded-md border-purple-500 border AstranovaHeroFont tracking-widest px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
+                className="rounded-md border-teal-500 border AstranovaHeroFont tracking-widest px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
               >
                 Back to Home
               </Link>
               <button
                 type="submit"
-                className="rounded-md bg-purple-500 AstranovaHeroFont tracking-widest px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500"
+                className="rounded-md bg-teal-500 AstranovaHeroFont tracking-widest px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500"
               >
                 {`${loading ? "Sending..." : "Send Message"}`}
               </button>

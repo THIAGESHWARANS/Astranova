@@ -22,9 +22,9 @@ export default function NonTechnicalEvents() {
           }}
           className="text-3xl font-bold tracking-wider text-white sm:text-4xl"
         >
-          <span className="text-5xl text-purple-600">N</span>on{" "}
-          <span className="text-5xl text-purple-600">T</span>echnical{" "}
-          <span className="text-5xl text-purple-600">E</span>vents
+          <span className="text-5xl text-teal-600">N</span>on{" "}
+          <span className="text-5xl text-teal-600">T</span>echnical{" "}
+          <span className="text-5xl text-teal-600">E</span>vents
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -58,8 +58,8 @@ export default function NonTechnicalEvents() {
             onClick={() => setDate(8)}
             className={` ${
               date === 8
-                ? "bg-purple-600 text-[#111111]"
-                : "border  border-purple-600"
+                ? "bg-teal-600 text-[#111111]"
+                : "border  border-teal-600"
             }
               px-6 py-1 flex items-center font-extrabold justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >
@@ -70,8 +70,8 @@ export default function NonTechnicalEvents() {
             onClick={() => setDate(9)}
             className={` ${
               date === 9
-                ? "bg-purple-600 text-[#111111]"
-                : "border  border-purple-600"
+                ? "bg-teal-600 text-[#111111]"
+                : "border  border-teal-600"
             }
               px-6 py-4  flex items-center font-extrabold justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >

@@ -144,16 +144,16 @@ export default function SingleEventPage({
               >
                 <motion.div
                   whileHover={{ scale: 1.1 }}
-                  className="flex items-center gap-2 px-2 bg-purple-500 min-w-[40%] sm:min-w-[35%] h-12 rounded-xl mt-4"
+                  className="flex items-center gap-2 px-2 bg-teal-500 min-w-[40%] sm:min-w-[35%] h-12 rounded-xl mt-4"
                 >
-                  <GrTechnology size={20} color="purple" />
+                  <GrTechnology size={20} color="teal" />
                   <p className="text-black text-lg font-poppins font-bold">
                     {eventDetails.dateTime}
                   </p>
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.1 }}
-                  className="flex items-center gap-3 px-4  border-purple-500 border min-w-[40%] sm:min-w-[35%] h-12 rounded-xl mt-4"
+                  className="flex items-center gap-3 px-4  border-teal-500 border min-w-[40%] sm:min-w-[35%] h-12 rounded-xl mt-4"
                 >
                   <FaPlaceOfWorship size={20} color="white" />
                   <div className="text-white text-lg font-poppins font-bold">
@@ -192,7 +192,7 @@ export default function SingleEventPage({
                     className="mt-6 flex gap-1 font-poppins"
                   >
                     <span>
-                      <CgChevronDoubleRight size={20} color="purple" />
+                      <CgChevronDoubleRight size={20} color="teal" />
                     </span>
                     <p className="mt-[2px] sm:mt-0 text-lg ">{rule}</p>
                   </motion.div>
@@ -214,8 +214,8 @@ export default function SingleEventPage({
               >
                 <div className="flex flex-col items-center  ">
                   <div className="flex justify-center flex-row gap-3">
-                    <SiDiscord className=" text-purple-600 text-4xl" />
-                    <h2 className=" text-lg  AstranovaHeroFont underline underline-offset-8  tracking-widest text-purple-500 font-semibold">
+                    <SiDiscord className=" text-teal-600 text-4xl" />
+                    <h2 className=" text-lg  AstranovaHeroFont underline underline-offset-8  tracking-widest text-teal-500 font-semibold">
                       <a href="https://discord.gg/ZJcpc2QH">
                         Click Here To Join Discord...
                       </a>
@@ -365,7 +365,7 @@ export default function SingleEventPage({
                   <BiErrorAlt size={30} color="#dd524b" />
                   <p className="text-2xl">
                     Spot Registration Only
-                    <span className="text-purple-500 ml-2 text-2xl">
+                    <span className="text-teal-500 ml-2 text-2xl">
                       !!
                     </span>{" "}
                   </p>
@@ -389,10 +389,10 @@ export default function SingleEventPage({
                   }`}
                   class="relative px-5 text-center py-2  font-medium AstranovaHeroFont tracking-widest text-white group"
                 >
-                  <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12"></span>
-                  <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12"></span>
-                  <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12"></span>
-                  <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                  <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-teal-500 group-hover:bg-teal-700 group-hover:skew-x-12"></span>
+                  <span class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-teal-700 group-hover:bg-teal-500 group-hover:-skew-x-12"></span>
+                  <span class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-teal-600 -rotate-12"></span>
+                  <span class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-teal-400 -rotate-12"></span>
                   <span class="relative">Register Now</span>
                 </motion.a>
               )}

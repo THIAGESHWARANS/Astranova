@@ -31,14 +31,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">A</span>
+        <span className="text-4xl text-teal-600 tracking-widest">A</span>
         stranova Coding
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">A</span>
+        <span className="text-4xl text-teal-500 tracking-widest">A</span>
         stranova Coding
       </h2>
     ),
@@ -52,14 +52,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">A</span>
+        <span className="text-4xl text-teal-600 tracking-widest">A</span>
         nime Quiz
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">A</span>
+        <span className="text-4xl text-teal-500 tracking-widest">A</span>
         nime Quiz
       </h2>
     ),
@@ -73,14 +73,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">V</span>
+        <span className="text-4xl text-teal-600 tracking-widest">V</span>
         alorant
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">V</span>
+        <span className="text-4xl text-teal-500 tracking-widest">V</span>
         alorant
       </h2>
     ),
@@ -94,14 +94,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">B</span>
+        <span className="text-4xl text-teal-600 tracking-widest">B</span>
         GMI
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">B</span>
+        <span className="text-4xl text-teal-500 tracking-widest">B</span>
         GMI
       </h2>
     ),
@@ -115,14 +115,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">P</span>
+        <span className="text-4xl text-teal-600 tracking-widest">P</span>
         aper Presentation
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">P</span>
+        <span className="text-4xl text-teal-500 tracking-widest">P</span>
         aper Presentation
       </h2>
     ),
@@ -136,14 +136,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">R</span>
+        <span className="text-4xl text-teal-600 tracking-widest">R</span>
         apid Coding
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">R</span>
+        <span className="text-4xl text-teal-500 tracking-widest">R</span>
         apid Coding
       </h2>
     ),
@@ -157,14 +157,14 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-purple-600 tracking-widest">K</span>
+        <span className="text-4xl text-teal-600 tracking-widest">K</span>
         ollywood Quiz
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-purple-500 tracking-widest">K</span>
+        <span className="text-4xl text-teal-500 tracking-widest">K</span>
         ollywood Quiz
       </h2>
     ),
@@ -196,7 +196,7 @@ const Events = () => {
     <div className="cont">
       <div className="px-4 py-12  bg-black max-w-screen-7xl">
         <h1 className="text-3xl md:text-4xl lg:text-5xl pb-4 text-center text-white tracking-widest AstranovaHeroFont">
-          <span className="text-7xl text-purple-500 ">A</span>stranova Gallery
+          <span className="text-7xl text-teal-500 ">A</span>stranova Gallery
         </h1>
         <Swiper
           effect={"coverflow"}
@@ -248,10 +248,10 @@ const Events = () => {
                       <span className="text-4xl">E</span>
                       <span className="mt-2">xplore </span>
                       <span className="ml-4 mt-1">
-                        <GiBrightExplosion size={25} color="purple" />
+                        <GiBrightExplosion size={25} color="teal" />
                       </span>
                     </Link>
-                    <div className="h-1  w-[30%] sm:w-[40%] lg:w-[50%]  bg-purple-500 rounded-full"></div>
+                    <div className="h-1  w-[30%] sm:w-[40%] lg:w-[50%]  bg-teal-500 rounded-full"></div>
                   </button>
                 </div>
               </div>

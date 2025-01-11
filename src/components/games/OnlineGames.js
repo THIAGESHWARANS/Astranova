@@ -23,8 +23,8 @@ export default function OnlineGames() {
           }}
           className="text-3xl font-bold tracking-wider text-white sm:text-4xl"
         >
-          <span className="text-5xl text-purple-600">O</span>nline{" "}
-          <span className="text-5xl text-purple-600">G</span>ames
+          <span className="text-5xl text-teal-600">O</span>nline{" "}
+          <span className="text-5xl text-teal-600">G</span>ames
         </motion.h2>
         <motion.p
           initial="hidden"

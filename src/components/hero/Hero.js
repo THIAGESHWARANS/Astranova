@@ -45,12 +45,12 @@ const Hero = () => {
                   whileTap={{ scale: 0.6 }}
                   className="flex items-center"
                 >
-                  <span className="text-4xl text-purple-500">C</span>
+                  <span className="text-4xl text-teal-500">C</span>
                   <span className="mt-1">lose</span>
                 </motion.div>
               ) : (
                 <motion.div whileTap={{ scale: 0.6 }}>
-                  <span className="text-4xl text-purple-500">M</span>
+                  <span className="text-4xl text-teal-500">M</span>
                   <span>enu</span>
                 </motion.div>
               )}
@@ -69,64 +69,64 @@ const Hero = () => {
                 <ul>
                   <Link
                     to={"/"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-teal-300 "
                   >
                     <HiOutlineHome size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       H<span className="text-black text-xl">ome</span>{" "}
                     </div>
                   </Link>
                   <Link
                     to={"/about-us"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <TbUnlink size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       A<span className="text-black text-xl">bout Us</span>{" "}
                     </div>
                   </Link>
                   <Link
                     to={"/events"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <SiEventstore size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       E<span className="text-black text-xl">vents</span>{" "}
                     </div>
                   </Link>
                   <Link
                     to={"/games/online"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <SiRiotgames size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       G<span className="text-black text-xl">ames</span>{" "}
                     </div>
                   </Link>
                   <Link
                     to={"#"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <GiTimeSynchronization size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       C<span className="text-black text-xl">hronoline</span>{" "}
                     </div>
                   </Link>
                   {/* <Link
                     to={"/team"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <VscOrganization size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       O<span className="text-black text-xl">ur Team</span>{" "}
                     </div>
                   </Link> */}
                   <Link
                     to={"contact-us"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                    className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-teal-300 "
                   >
                     <FaTeamspeak size={20} />{" "}
-                    <div className="text-purple-500 text-2xl ">
+                    <div className="text-teal-500 text-2xl ">
                       C<span className="text-black text-xl">ontact Us</span>{" "}
                     </div>
                   </Link>
@@ -165,11 +165,11 @@ const Hero = () => {
             className="text-md sm:text-xl lg:text-3xl"
           >
             Department of{" "}
-            <span className="text-3xl md:text-4xl lg:text-5xl text-purple-500">
+            <span className="text-3xl md:text-4xl lg:text-5xl text-teal-500">
               I
             </span>
             nformation{" "}
-            <span className="text-3xl md:text-4xl lg:text-5xl text-purple-500">
+            <span className="text-3xl md:text-4xl lg:text-5xl text-teal-500">
               T
             </span>
             echnology
@@ -215,7 +215,7 @@ const Hero = () => {
               }}
               className="text-center text-4xl  dynamic-celestra-shadow lg:text-7xl tracking-wider  "
             >
-              <span className="text-6xl lg:text-8xl dynamic-celestra-white-shadow-mobile lg:dynamic-celestra-white-shadow text-purple-500">
+              <span className="text-6xl lg:text-8xl dynamic-celestra-white-shadow-mobile lg:dynamic-celestra-white-shadow text-teal-500">
                 A
               </span>
               STRANOV<span className="text-6xl lg:text-8xl">A</span>
@@ -231,7 +231,7 @@ const Hero = () => {
               }}
               className="text-4xl lg:text-7xl tracking-widest"
             >
-              2<span className="text-purple-500">k</span>24
+              2<span className="text-teal-500">k</span>24
             </motion.h1>
             <motion.h2
               initial="hidden"
@@ -245,12 +245,12 @@ const Hero = () => {
               className="text-center text-xl dynamic-text-shadow lg:text-3xl pb-4"
             >
               Innovate{"   "}
-              <span className="text-3xl md:text-4xl lg:text-5xl text-purple-500">
+              <span className="text-3xl md:text-4xl lg:text-5xl text-teal-500">
                 |
               </span>
               {"   "}
               Elevate{"   "}
-              <span className="text-3xl md:text-4xl lg:text-5xl text-purple-500">
+              <span className="text-3xl md:text-4xl lg:text-5xl text-teal-500">
                 |
               </span>
               {"   "}
@@ -270,8 +270,8 @@ const Hero = () => {
                 to={"/events"}
                 className="w-[90%] lg:w-[60%] py-6 px-6 rounded-xl text-white text-xl tracking-widest bg-gradient-to-b from-[#9633d8] via-[#fffdfd00] to-[#9633d8]"
               >
-                <span className="text-purple-500 text-3xl">J</span>oin the Exc
-                <span className="text-3xl text-purple-500">it</span>ement
+                <span className="text-teal-500 text-3xl">J</span>oin the Exc
+                <span className="text-3xl text-teal-500">it</span>ement
               </Link>
             </motion.div>
           </div>

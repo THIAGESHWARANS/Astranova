@@ -25,12 +25,12 @@ export default function SuccessMessage() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="pointer-events-auto w-full max-w-sm shadow-lg shadow-purple-500 overflow-hidden rounded-lg bg-white ring-1 ring-black ring-opacity-5">
+            <div className="pointer-events-auto w-full max-w-sm shadow-lg shadow-teal-500 overflow-hidden rounded-lg bg-white ring-1 ring-black ring-opacity-5">
               <div className="p-4">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
                     <CheckCircleIcon
-                      className="h-10 w-10 text-purple-600"
+                      className="h-10 w-10 text-teal-600"
                       aria-hidden="true"
                     />
                   </div>
