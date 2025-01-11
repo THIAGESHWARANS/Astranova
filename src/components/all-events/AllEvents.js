@@ -3,7 +3,11 @@ import EliteEvents from "./EliteEvents";
 import NonTechnicalEvents from "./NonTechnicalEvents";
 import TechnicalEvents from "./TechnicalEvents";
 import logo from "../../assets/logo.png";
+<<<<<<< HEAD
 import { GiTimeSynchronization } from "react-icons/gi";
+=======
+// import { GiTimeSynchronization } from "react-icons/gi";
+>>>>>>> origin/main
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { TbUnlink } from "react-icons/tb";
@@ -58,12 +62,20 @@ export default function AllEvents() {
                 whileTap={{ scale: 0.6 }}
                 className="flex items-center"
               >
+<<<<<<< HEAD
                 <span className="text-4xl text-teal-500">C</span>
+=======
+                <span className="text-4xl text-purple-500">C</span>
+>>>>>>> origin/main
                 <span className="mt-1">lose</span>
               </motion.div>
             ) : (
               <motion.div whileTap={{ scale: 0.6 }}>
+<<<<<<< HEAD
                 <span className="text-4xl text-teal-500">M</span>
+=======
+                <span className="text-4xl text-purple-500">M</span>
+>>>>>>> origin/main
                 <span>enu</span>
               </motion.div>
             )}
@@ -85,55 +97,97 @@ export default function AllEvents() {
               <ul>
                 <Link
                   to={"/"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-teal-300 "
                 >
                   <HiOutlineHome size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-purple-300 "
+                >
+                  <HiOutlineHome size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     H<span className="text-black text-xl">ome</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"/about-us"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <TbUnlink size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <TbUnlink size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     A<span className="text-black text-xl">bout Us</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"/games/online"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <SiRiotgames size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <SiRiotgames size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     G<span className="text-black text-xl">ames</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"#"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <GiTimeSynchronization size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <GiTimeSynchronization size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
                 </Link>
                 {/* <Link
                   to={"/team"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <VscOrganization size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <VscOrganization size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     O<span className="text-black text-xl">ur Team</span>{" "}
                   </div>
                 </Link> */}
                 <Link
                   to={"/contact-us"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <VscOrganization size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <VscOrganization size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     C<span className="text-black text-xl">ontact Us</span>{" "}
                   </div>
                 </Link>
@@ -160,8 +214,13 @@ export default function AllEvents() {
             onClick={() => setEventType(1)}
             className={` ${
               eventType === 1
+<<<<<<< HEAD
                 ? "bg-teal-600 text-[#111111]"
                 : "border  border-teal-600"
+=======
+                ? "bg-purple-600 text-[#111111]"
+                : "border  border-purple-600"
+>>>>>>> origin/main
             }
               px-6 py-1 flex items-center justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >
@@ -172,8 +231,13 @@ export default function AllEvents() {
             onClick={() => setEventType(2)}
             className={` ${
               eventType === 2
+<<<<<<< HEAD
                 ? "bg-teal-600 text-[#111111]"
                 : "border  border-teal-600"
+=======
+                ? "bg-purple-600 text-[#111111]"
+                : "border  border-purple-600"
+>>>>>>> origin/main
             }
               px-6 py-4  flex items-center justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >
@@ -184,8 +248,13 @@ export default function AllEvents() {
             onClick={() => setEventType(3)}
             className={` ${
               eventType === 3
+<<<<<<< HEAD
                 ? "bg-teal-600 text-[#111111]"
                 : "border  border-teal-600"
+=======
+                ? "bg-purple-600 text-[#111111]"
+                : "border  border-purple-600"
+>>>>>>> origin/main
             }
               px-6 py-4  flex items-center justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >
@@ -194,7 +263,11 @@ export default function AllEvents() {
           <Link to={"/games/online"}>
             <motion.span
               whileTap={{ scale: 0.8 }}
+<<<<<<< HEAD
               className={` border  border-teal-600 px-6 py-4  flex items-center justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
+=======
+              className={` border  border-purple-600 px-6 py-4  flex items-center justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
+>>>>>>> origin/main
             >
               Games
             </motion.span>

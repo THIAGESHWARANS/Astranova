@@ -17,7 +17,11 @@ import Rajasree from "../../assets/staffs/Rajasree-mam.jpg";
 import Thilagavathi from "../../assets/staffs/Thilaga-mam.jpg";
 // Nav imports
 import logo from "../../assets/logo.png";
+<<<<<<< HEAD
 import { GiTimeSynchronization } from "react-icons/gi";
+=======
+// import { GiTimeSynchronization } from "react-icons/gi";
+>>>>>>> origin/main
 import { HiOutlineHome } from "react-icons/hi";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
@@ -142,12 +146,20 @@ const About = () => {
                 whileTap={{ scale: 0.6 }}
                 className="flex items-center"
               >
+<<<<<<< HEAD
                 <span className="text-4xl text-teal-500">C</span>
+=======
+                <span className="text-4xl text-purple-500">C</span>
+>>>>>>> origin/main
                 <span className="mt-1">lose</span>
               </motion.div>
             ) : (
               <motion.div whileTap={{ scale: 0.6 }}>
+<<<<<<< HEAD
                 <span className="text-4xl text-teal-500">M</span>
+=======
+                <span className="text-4xl text-purple-500">M</span>
+>>>>>>> origin/main
                 <span>enu</span>
               </motion.div>
             )}
@@ -166,65 +178,114 @@ const About = () => {
               <ul>
                 <Link
                   to={"/"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-teal-300 "
                 >
                   <HiOutlineHome size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 rounded-t-lg  transition-all duration-300 ease-in-out  hover:bg-purple-300 "
+                >
+                  <HiOutlineHome size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     H<span className="text-black text-xl">ome</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"/about-us"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <TbUnlink size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <TbUnlink size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     A<span className="text-black text-xl">bout Us</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"/events"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <SiEventstore size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <SiEventstore size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     E<span className="text-black text-xl">vents</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"/games/online"}
                   href="/games/online"
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <SiRiotgames size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <SiRiotgames size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     G<span className="text-black text-xl">ames</span>{" "}
                   </div>
                 </Link>
                 <Link
                   to={"#"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <GiTimeSynchronization size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <GiTimeSynchronization size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
                 </Link>
                 {/* <Link
                   to={"/team"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <VscOrganization size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <VscOrganization size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     O<span className="text-black text-xl">ur Team</span>{" "}
                   </div>
                 </Link> */}
                 <Link
                   to={"/contact-us"}
+<<<<<<< HEAD
                   className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-teal-300 "
                 >
                   <FaTeamspeak size={20} />{" "}
                   <div className="text-teal-500 text-2xl ">
+=======
+                  className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-purple-300 "
+                >
+                  <FaTeamspeak size={20} />{" "}
+                  <div className="text-purple-500 text-2xl ">
+>>>>>>> origin/main
                     C<span className="text-black text-xl">ontact Us</span>{" "}
                   </div>
                 </Link>
@@ -244,7 +305,11 @@ const About = () => {
         }}
         className="text-white text-6xl text-center mt-10 md:mt-4 AstranovaHeroFont tracking-widest"
       >
+<<<<<<< HEAD
         <span className="text-7xl text-teal-500">A</span>bout Us
+=======
+        <span className="text-7xl text-purple-500">A</span>bout Us
+>>>>>>> origin/main
       </motion.h2>
       {/* about section */}
       <div className="pt-10 lg:pt-36">
@@ -277,7 +342,11 @@ const About = () => {
               >
                 Our College
               </motion.h1>
+<<<<<<< HEAD
               <div className="h-1  ml-1 w-[30%] sm:w-[16%] lg:w-[40%]  bg-teal-500 rounded-full"></div>
+=======
+              <div className="h-1  ml-1 w-[30%] sm:w-[16%] lg:w-[40%]  bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
             </div>
             <motion.h5
               initial="hidden"
@@ -325,10 +394,17 @@ const About = () => {
               rel="noreferrer"
               class="relative inline-flex tracking-widest AstranovaHeroFont items-center justify-center px-6 py-3 text-lg font-medium  text-white bg-gray-800 rounded-md group"
             >
+<<<<<<< HEAD
               <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-teal-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-teal-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span class="relative text-teal-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">
+=======
+              <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-purple-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
+              <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
+              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-purple-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
+              <span class="relative text-purple-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">
+>>>>>>> origin/main
                 Know more
               </span>
             </motion.a>
@@ -366,7 +442,11 @@ const About = () => {
               >
                 Our Department
               </motion.h1>
+<<<<<<< HEAD
               <div className="h-1  ml-1   w-[30%] sm:w-[16%] lg:w-[40%]  bg-teal-500 rounded-full"></div>
+=======
+              <div className="h-1  ml-1   w-[30%] sm:w-[16%] lg:w-[40%]  bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
             </div>
             <motion.h5
               initial="hidden"
@@ -415,10 +495,17 @@ const About = () => {
               rel="noreferrer"
               class="relative inline-flex tracking-widest AstranovaHeroFont items-center justify-center px-6 py-3 text-lg font-medium  text-white bg-gray-800 rounded-md group"
             >
+<<<<<<< HEAD
               <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-teal-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-teal-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
               <span class="relative text-teal-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">
+=======
+              <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-purple-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
+              <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
+              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-purple-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
+              <span class="relative text-purple-600 transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">
+>>>>>>> origin/main
                 Know more
               </span>
             </motion.a>
@@ -428,7 +515,11 @@ const About = () => {
       {/* Staffs section */}
 
       <div className="bg-black mt-32 lg:mt-44 pb-10">
+<<<<<<< HEAD
         <div className="border-t border-teal-300 mx-10 md:mx-32 pb-14"></div>
+=======
+        <div className="border-t border-purple-300 mx-10 md:mx-32 pb-14"></div>
+>>>>>>> origin/main
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div className="mx-auto max-w-4xl">
             <motion.h2

@@ -147,7 +147,11 @@ html {
 }
 
 .swiper-pagination .swiper-pagination-bullet {
+<<<<<<< HEAD
   background-color: teal;
+=======
+  background-color: purple;
+>>>>>>> origin/main
   font-size: 2rem;
 }
 

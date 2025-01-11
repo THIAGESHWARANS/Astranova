@@ -12,13 +12,21 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <div className="footer border-t-2 border-teal-600 pb-12">
+=======
+    <div className="footer border-t-2 border-purple-600 pb-12">
+>>>>>>> origin/main
       <div className="footer-container pb-6">
         <div className="footer-container1">
           <div className="footer-container11">
             <img src={logo} alt="Celestra Logo" className="footer-logo" />
             <h3 className="footer-title AstranovaHeroFont tracking-widest">
+<<<<<<< HEAD
               <span className=" text-5xl text-teal-600">A</span>STRANOVA 2K24
+=======
+              <span className=" text-5xl text-purple-600">A</span>STRANOVA 2K24
+>>>>>>> origin/main
             </h3>
           </div>
           <p className="about-us-text font-poppins  text-xl">
@@ -34,7 +42,11 @@ const Footer = () => {
         <div className="footer-container2 lg:pt-12 pt-8">
           <h3 className="text-4xl md:text-3xl AstranovaHeroFont tracking-widest">
             <span className="">L</span>inks
+<<<<<<< HEAD
             <div className="h-1 mt-1 w-[55%] sm:w-[17%] lg:w-[45%] bg-teal-500 rounded-full"></div>
+=======
+            <div className="h-1 mt-1 w-[55%] sm:w-[17%] lg:w-[45%] bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
           </h3>
           <ul className="flex flex-col items-center text-2xl md:text-xl font-poppins tracking-wide ">
             <li className="footer-items  ">
@@ -69,7 +81,11 @@ const Footer = () => {
         <div className="footer-container3 lg:pt-12 pt-8">
           <h3 className="footer-title tracking-widest AstranovaHeroFont">
             <span className="">C</span>ontact
+<<<<<<< HEAD
             <div className="h-1 w-[50%] sm:w-[17%] lg:w-[45%] bg-teal-500 rounded-full"></div>
+=======
+            <div className="h-1 w-[50%] sm:w-[17%] lg:w-[45%] bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
           </h3>
           <ul className="flex flex-col gap-4 font-poppins">
             <li className="footer-row-align footer-items">

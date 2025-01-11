@@ -22,8 +22,13 @@ export default function EliteEvents() {
           }}
           className="text-3xl font-bold tracking-widest text-white sm:text-4xl"
         >
+<<<<<<< HEAD
           <span className="text-5xl text-teal-600">G</span>olden-byte{" "}
           <span className="text-5xl text-teal-600">E</span>vents
+=======
+          <span className="text-5xl text-purple-600">G</span>olden-byte{" "}
+          <span className="text-5xl text-purple-600">E</span>vents
+>>>>>>> origin/main
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -57,8 +62,13 @@ export default function EliteEvents() {
             onClick={() => setDate(8)}
             className={` ${
               date === 8
+<<<<<<< HEAD
                 ? "bg-teal-600 text-[#111111]"
                 : "border  border-teal-600"
+=======
+                ? "bg-purple-600 text-[#111111]"
+                : "border  border-purple-600"
+>>>>>>> origin/main
             }
               px-6 py-1 flex items-center font-extrabold justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >
@@ -69,8 +79,13 @@ export default function EliteEvents() {
             onClick={() => setDate(9)}
             className={` ${
               date === 9
+<<<<<<< HEAD
                 ? "bg-teal-600 text-[#111111]"
                 : "border  border-teal-600"
+=======
+                ? "bg-purple-600 text-[#111111]"
+                : "border  border-purple-600"
+>>>>>>> origin/main
             }
               px-6 py-4  flex items-center font-extrabold justify-center rounded-xl text-xl tracking-widest cursor-pointer `}
           >

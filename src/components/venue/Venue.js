@@ -15,12 +15,20 @@ const Venue = () => {
             <div className=" text-white AstranovaHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
+<<<<<<< HEAD
                 <span className="text-2xl text-teal-500">D</span>ate
+=======
+                <span className="text-2xl text-purple-500">D</span>ate
+>>>>>>> origin/main
               </h2>
               <p className="text-sm tracking-widest">08-09 March 2024</p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="h-1  w-[30%] sm:w-[16%] lg:w-[40%]  bg-teal-500 rounded-full"></div>
+=======
+          <div className="h-1  w-[30%] sm:w-[16%] lg:w-[40%]  bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
         </li>
         <li className="flex flex-col gap-3 -mb-4 ml-auto lg:ml-0">
           <div className="flex gap-4">
@@ -28,12 +36,20 @@ const Venue = () => {
             <div className=" text-white AstranovaHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
+<<<<<<< HEAD
                 <span className="text-2xl text-teal-500">V</span>enue
+=======
+                <span className="text-2xl text-purple-500">V</span>enue
+>>>>>>> origin/main
               </h2>
               <p className="text-sm tracking-widest">CIT - Coimbatore</p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="h-1 ml-2 w-[65%] lg:w-[44%]  bg-teal-500 rounded-full"></div>
+=======
+          <div className="h-1 ml-2 w-[65%] lg:w-[44%]  bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
         </li>
         <li className="flex flex-col gap-3 -mb-2">
           <div className="flex gap-4">
@@ -41,12 +57,20 @@ const Venue = () => {
             <div className=" text-white AstranovaHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
+<<<<<<< HEAD
                 <span className="text-2xl text-teal-500">E</span>vents{" "}
+=======
+                <span className="text-2xl text-purple-500">E</span>vents{" "}
+>>>>>>> origin/main
               </h2>
               <p className="text-sm tracking-wider">Twenty plus</p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="h-1 ml-2 w-[28%] sm:w-[17%] lg:w-[45%] bg-teal-500 rounded-full"></div>
+=======
+          <div className="h-1 ml-2 w-[28%] sm:w-[17%] lg:w-[45%] bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
         </li>
         <li className="flex flex-col gap-3 -mb-4 ml-auto lg:ml-0">
           <div className="flex gap-4">
@@ -54,12 +78,20 @@ const Venue = () => {
             <div className=" text-white AstranovaHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
+<<<<<<< HEAD
                 <span className="text-2xl text-teal-500">G</span>ames
+=======
+                <span className="text-2xl text-purple-500">G</span>ames
+>>>>>>> origin/main
               </h2>
               <p className="text-sm tracking-widest">Immersive world</p>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="h-1 ml-1 w-[65%] lg:w-[38%]  bg-teal-500 rounded-full"></div>
+=======
+          <div className="h-1 ml-1 w-[65%] lg:w-[38%]  bg-purple-500 rounded-full"></div>
+>>>>>>> origin/main
         </li>
       </ul>
     </div>

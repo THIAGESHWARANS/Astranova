@@ -14,7 +14,11 @@ const EventCard = ({ event, isComingSoon = false }) => {
         visible: { opacity: 1, x: 0 },
       }}
       key={event.id}
+<<<<<<< HEAD
       className="font-poppins shadow-md shadow-teal-600 relative isolate flex flex-col gap-2 justify-end overflow-hidden rounded-2xl h-[350px] bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+=======
+      className="font-poppins shadow-md shadow-purple-600 relative isolate flex flex-col gap-2 justify-end overflow-hidden rounded-2xl h-[350px] bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+>>>>>>> origin/main
     >
       <img
         src={event.imageUrl}
@@ -28,6 +32,7 @@ const EventCard = ({ event, isComingSoon = false }) => {
       </h3>
       <p className="text-white mb-4">{event.description}</p>
       {isComingSoon ? (
+<<<<<<< HEAD
         <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-teal-600">
           <BiErrorAlt size={15} color="teal" />
           <p className="text-lg tracking-wider text-center">Coming Soon</p>
@@ -35,6 +40,15 @@ const EventCard = ({ event, isComingSoon = false }) => {
       ) : event.isRegistrationClosed ? (
         <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-teal-600">
           <BiErrorAlt size={15} color="teal" />
+=======
+        <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-purple-600">
+          <BiErrorAlt size={15} color="purple" />
+          <p className="text-lg tracking-wider text-center">Coming Soon</p>
+        </div>
+      ) : event.isRegistrationClosed ? (
+        <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-purple-600">
+          <BiErrorAlt size={15} color="purple" />
+>>>>>>> origin/main
           <p className="text-lg tracking-wider text-center">
             Registration Closed!!
           </p>
@@ -42,7 +56,11 @@ const EventCard = ({ event, isComingSoon = false }) => {
       ) : (
         <Link
           to={event.href}
+<<<<<<< HEAD
           className="bg-[#111111] AstranovaHeroFont text-xl text-white text-center rounded-md p-4   hover:bg-teal-500 hover:text-black tracking-widest transition-all duration-300 ease-in-out"
+=======
+          className="bg-[#111111] AstranovaHeroFont text-xl text-white text-center rounded-md p-4   hover:bg-purple-500 hover:text-black tracking-widest transition-all duration-300 ease-in-out"
+>>>>>>> origin/main
         >
           Quicklook
         </Link>

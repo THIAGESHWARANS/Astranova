@@ -62,7 +62,11 @@ const CountDown = () => {
         }}
         className="text-2xl lg:text-5xl pb-12 text-center text-white tracking-widest AstranovaHeroFont"
       >
+<<<<<<< HEAD
         <span className="text-4xl lg:text-6xl text-teal-500">C</span>ounter
+=======
+        <span className="text-4xl lg:text-6xl text-purple-500">C</span>ounter
+>>>>>>> origin/main
         Until The Big Event
       </h3>
       <ul className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 place-content-center gap-20">
@@ -77,11 +81,19 @@ const CountDown = () => {
           }}
           className="flex flex-col items-center text-white AstranovaHeroFont"
         >
+<<<<<<< HEAD
           <span className="text-7xl text-teal-500 tracking-widest">
             {days}
           </span>
           <div className="text-2xl tracking-wider">
             <span className="text-3xl text-teal-500">D</span>ays
+=======
+          <span className="text-7xl text-purple-500 tracking-widest">
+            {days}
+          </span>
+          <div className="text-2xl tracking-wider">
+            <span className="text-3xl text-purple-500">D</span>ays
+>>>>>>> origin/main
           </div>
         </li>
         <li
@@ -95,11 +107,19 @@ const CountDown = () => {
           }}
           className="flex flex-col items-center text-white AstranovaHeroFont"
         >
+<<<<<<< HEAD
           <span className="text-7xl text-teal-500 tracking-widest">
             {hours}
           </span>
           <div className="text-2xl tracking-wider">
             <span className="text-3xl text-teal-500">H</span>ours
+=======
+          <span className="text-7xl text-purple-500 tracking-widest">
+            {hours}
+          </span>
+          <div className="text-2xl tracking-wider">
+            <span className="text-3xl text-purple-500">H</span>ours
+>>>>>>> origin/main
           </div>
         </li>
         <li
@@ -113,11 +133,19 @@ const CountDown = () => {
           }}
           className="flex flex-col items-center text-white AstranovaHeroFont"
         >
+<<<<<<< HEAD
           <span className="text-7xl text-teal-500 tracking-widest">
             {minutes}
           </span>
           <div className="text-2xl tracking-wider">
             <span className="text-3xl text-teal-500">M</span>inutes
+=======
+          <span className="text-7xl text-purple-500 tracking-widest">
+            {minutes}
+          </span>
+          <div className="text-2xl tracking-wider">
+            <span className="text-3xl text-purple-500">M</span>inutes
+>>>>>>> origin/main
           </div>
         </li>
         <li
@@ -131,11 +159,19 @@ const CountDown = () => {
           }}
           className="flex flex-col items-center text-white AstranovaHeroFont"
         >
+<<<<<<< HEAD
           <span className="text-7xl text-teal-500 tracking-widest">
             {seconds}
           </span>
           <div className="text-2xl tracking-wider">
             <span className="text-3xl text-teal-500">S</span>econds
+=======
+          <span className="text-7xl text-purple-500 tracking-widest">
+            {seconds}
+          </span>
+          <div className="text-2xl tracking-wider">
+            <span className="text-3xl text-purple-500">S</span>econds
+>>>>>>> origin/main
           </div>
         </li>
       </ul>

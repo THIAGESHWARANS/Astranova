@@ -23,8 +23,13 @@ export default function OfflineGames() {
           }}
           className="text-3xl font-bold tracking-wider text-white sm:text-4xl"
         >
+<<<<<<< HEAD
           <span className="text-5xl text-teal-600">C</span>oming{" "}
           <span className="text-5xl text-teal-600">S</span>oon
+=======
+          <span className="text-5xl text-purple-600">C</span>oming{" "}
+          <span className="text-5xl text-purple-600">S</span>oon
+>>>>>>> origin/main
         </motion.h2>
         <motion.p
           initial="hidden"
@@ -54,7 +59,11 @@ export default function OfflineGames() {
               visible: { opacity: 1, x: 0 },
             }}
             key={event.id}
+<<<<<<< HEAD
             className="font-poppins shadow-md shadow-teal-600 relative isolate flex flex-col gap-2 justify-end overflow-hidden rounded-2xl h-[350px] bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+=======
+            className="font-poppins shadow-md shadow-purple-600 relative isolate flex flex-col gap-2 justify-end overflow-hidden rounded-2xl h-[350px] bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+>>>>>>> origin/main
           >
             <img
               src={event.imageUrl}
@@ -72,21 +81,34 @@ export default function OfflineGames() {
                 target="_blank"
                 rel="noreferrer"
                 href={event.href}
+<<<<<<< HEAD
                 className="bg-[#111111] AstranovaHeroFont text-xl text-white text-center rounded-md p-4   hover:bg-teal-500 hover:text-black tracking-widest transition-all duration-300 ease-in-out"
+=======
+                className="bg-[#111111] AstranovaHeroFont text-xl text-white text-center rounded-md p-4   hover:bg-purple-500 hover:text-black tracking-widest transition-all duration-300 ease-in-out"
+>>>>>>> origin/main
               >
                 Register Now
               </a>
             )}
             {event.commingSoon && (
+<<<<<<< HEAD
               <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-teal-600">
+=======
+              <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-purple-600">
+>>>>>>> origin/main
                 <p className="text-lg tracking-wider text-center">
                   Registration Opens soon!!
                 </p>
               </div>
             )}
             {!event.commingSoon && !event.isOnlineRegister && (
+<<<<<<< HEAD
               <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-teal-600">
                 <BiErrorAlt size={15} color="teal" />
+=======
+              <div class="flex items-center justify-center gap-4 font-medium AstranovaHeroFont text-purple-600">
+                <BiErrorAlt size={15} color="purple" />
+>>>>>>> origin/main
                 <p className="text-lg tracking-wider text-center">
                   Spot Registration!
                 </p>

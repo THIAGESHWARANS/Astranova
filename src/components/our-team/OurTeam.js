@@ -241,9 +241,15 @@ export default function OurTeam() {
             }}
             className="text-3xl font-bold tracking-widest AstranovaHeroFont  text-white sm:text-4xl"
           >
+<<<<<<< HEAD
             <span className="text-5xl text-teal-600">M</span>eet{" "}
             <span className="text-5xl text-teal-600">O</span>ur{" "}
             <span className="text-5xl text-teal-600">T</span>eam
+=======
+            <span className="text-5xl text-purple-600">M</span>eet{" "}
+            <span className="text-5xl text-purple-600">O</span>ur{" "}
+            <span className="text-5xl text-purple-600">T</span>eam
+>>>>>>> origin/main
           </motion.h2>
           <motion.p
             initial="hidden"
@@ -274,8 +280,13 @@ export default function OurTeam() {
             }}
             className="text-4xl text-white AstranovaHeroFont tracking-widest"
           >
+<<<<<<< HEAD
             <span className="text-5xl text-teal-600">B</span>oard{" "}
             <span className="text-5xl text-teal-600">M</span>embers
+=======
+            <span className="text-5xl text-purple-600">B</span>oard{" "}
+            <span className="text-5xl text-purple-600">M</span>embers
+>>>>>>> origin/main
           </motion.h2>
           <ul className="mx-auto px-4 mt-10 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
             {boardMembers.map((person) => (
@@ -289,7 +300,11 @@ export default function OurTeam() {
                   visible: { opacity: 1, x: 0 },
                 }}
                 key={person.name}
+<<<<<<< HEAD
                 className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-teal-500  shadow-teal-400 bg-[#111111] py-10 px-8"
+=======
+                className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-purple-500  shadow-purple-400 bg-[#111111] py-10 px-8"
+>>>>>>> origin/main
               >
                 <img
                   className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
@@ -320,8 +335,13 @@ export default function OurTeam() {
             }}
             className="text-4xl text-white AstranovaHeroFont tracking-widest"
           >
+<<<<<<< HEAD
             <span className="text-5xl text-teal-600">S</span>pecial{" "}
             <span className="text-5xl text-teal-600">T</span>hanks to
+=======
+            <span className="text-5xl text-purple-600">S</span>pecial{" "}
+            <span className="text-5xl text-purple-600">T</span>hanks to
+>>>>>>> origin/main
           </motion.h2>
           <ul className="mx-auto px-4 mt-10 grid max-w-full sm:max-w-md gap-8">
             <motion.li
@@ -334,7 +354,11 @@ export default function OurTeam() {
                 visible: { opacity: 1, x: 0 },
               }}
               key="Arunkumar"
+<<<<<<< HEAD
               className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-teal-500  shadow-teal-400 bg-[#111111] py-10 px-8"
+=======
+              className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-purple-500  shadow-purple-400 bg-[#111111] py-10 px-8"
+>>>>>>> origin/main
             >
               <img
                 className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
@@ -386,8 +410,13 @@ export default function OurTeam() {
             }}
             className="text-4xl text-white AstranovaHeroFont tracking-widest"
           >
+<<<<<<< HEAD
             <span className="text-5xl text-teal-600">W</span>eb{" "}
             <span className="text-5xl text-teal-600">D</span>evelopers
+=======
+            <span className="text-5xl text-purple-600">W</span>eb{" "}
+            <span className="text-5xl text-purple-600">D</span>evelopers
+>>>>>>> origin/main
           </motion.h2>
           <ul className="mx-auto px-4 mt-10 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
             {webDevelopers.map((person) => (
@@ -401,7 +430,11 @@ export default function OurTeam() {
                   visible: { opacity: 1, x: 0 },
                 }}
                 key={person.name}
+<<<<<<< HEAD
                 className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-teal-500 shadow-teal-400 bg-[#111111] py-10 px-8"
+=======
+                className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-purple-500 shadow-purple-400 bg-[#111111] py-10 px-8"
+>>>>>>> origin/main
               >
                 <img
                   className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
@@ -454,8 +487,13 @@ export default function OurTeam() {
             }}
             className="text-4xl text-white AstranovaHeroFont tracking-widest"
           >
+<<<<<<< HEAD
             <span className="text-5xl text-teal-600">D</span>esign{" "}
             <span className="text-5xl text-teal-600">T</span>eam
+=======
+            <span className="text-5xl text-purple-600">D</span>esign{" "}
+            <span className="text-5xl text-purple-600">T</span>eam
+>>>>>>> origin/main
           </motion.h2>
           <ul className="mx-auto mt-10 px-4 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
             {designTeam.map((person) => (
@@ -469,7 +507,11 @@ export default function OurTeam() {
                   visible: { opacity: 1, x: 0 },
                 }}
                 key={person.name}
+<<<<<<< HEAD
                 className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-teal-500 shadow-teal-400 bg-[#111111] py-10 px-8"
+=======
+                className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-purple-500 shadow-purple-400 bg-[#111111] py-10 px-8"
+>>>>>>> origin/main
               >
                 <img
                   className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
